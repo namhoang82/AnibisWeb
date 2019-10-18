@@ -23,6 +23,7 @@ describe('SM01 - Login', function() {
 //       cy.checkUserInfo(account.username)
 // // abcjsjkd
 // Different version
+cy.login(account.email,account.password)
 //       cy.logout()
     })
   })
