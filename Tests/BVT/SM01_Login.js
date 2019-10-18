@@ -24,6 +24,7 @@ describe('SM01 - Login', function() {
 // // abcjsjkd
 // Different version
 cy.login(account.email,account.password)
+//Testing
 //       cy.logout()
     })
   })
