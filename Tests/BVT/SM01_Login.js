@@ -21,7 +21,7 @@ describe('SM01 - Login', function() {
 
       // VP: username displays on my profile page
       cy.checkUserInfo(account.username)
-
+// abcjsjkd
       cy.logout()
     })
   })
